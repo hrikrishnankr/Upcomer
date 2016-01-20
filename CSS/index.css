@@ -1,0 +1,352 @@
+body{
+	width: 100%;
+}
+
+a{
+	color:#333333;
+	text-decoration: none;
+}
+
+header{
+	position: fixed;
+	right: 0px;
+	left:0px;
+	top: 0px;
+	height: 70px;
+	box-shadow: 0px 2px 2px #666666;
+	z-index: 2;
+	background-color: #fff;
+}
+
+.header_section{
+	height: 70px;
+	width: 95%;
+	margin: auto;
+}
+
+.header_section div{
+	display: inline-block;
+}
+
+.external_link,.link{
+	float: right;
+	width: 30%;
+	font-family: 'Asap Bold', arial;
+	font-size: 18px;
+}
+
+.link,.logo{
+	float: left;
+}
+
+.link{
+	margin-top: -10px;
+}
+
+.logo{
+	width: 40%;
+	margin-top: 20px;
+}
+
+.link ul li{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+.header_section .external_link .link_to_be_hidden{
+	width: 100%;
+}
+
+.external_link .link_to_be_hidden img{
+	float: right;
+	margin-top: 15px;
+	margin-right: 2%;
+}
+
+.about_link{
+	color: #999999;	
+}
+
+#link{
+	display: none;
+}
+
+main{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	right: 0px;
+}
+
+.home{
+	position: relative;
+	top:20px;
+	left: 0px;
+	right:0px;
+	height: 500px;
+	background-image: url("../images/bg1_repeat.png");
+}
+
+.home .slogans{
+	margin:auto;
+	width: 80%;
+	height: 100%;
+	color:#fff;
+}
+
+.home .slogans center .slogan1{
+	font-family: 'Asap Bold', arial;
+	font-size: 52px;
+}
+.home .slogans center .slogan1 p{
+}
+
+.home .slogans center .slogan2{
+	font-family: 'Asap Bold', arial;
+	font-size: 24px;
+}
+
+.home .slogans center .slogan3{
+	font-family: 'Asap Bold', arial;
+	font-size: 16px;	
+}
+
+.home .slogans center .subscribe .email{
+	font-family: 'Asap Bold', arial;
+	font-size: 16px;
+	width:269px;
+	height: 59px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	outline: 0;
+	border:none;
+	background: rgba(255,255,255,0.3);
+	padding-left: 25px;
+	color: #fff;
+} 
+
+::-webkit-input-placeholder { 
+   font-family: 'Asap Bold', arial;
+   color: #fff;
+   font-size: 16px;
+}
+
+::-moz-placeholder { 
+   font-family: 'Asap Bold', arial;
+   color: #fff;
+   font-size: 16px;
+}
+
+.home .slogans center .subscribe .submit{
+	color: #fff;
+	font-size: 16.05px;
+	background: #2ecc71;
+	width: 81px;
+	height: 61px;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	outline: 0;
+	border:none;
+	cursor: pointer;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+.home .slogans center .subscribe .submit:hover{
+	opacity: 0.8;
+}
+
+.home .slogans .down img{
+	cursor: pointer;
+	position: absolute;
+	bottom: 0px;
+	left: 46%;
+}	
+
+.general{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.general center h1{
+	margin: 2%;
+	font-family: 'Asap Bold', arial;
+   	color: #333333;
+   	font-size: 36px;
+}
+
+.general center .general_illustration{
+	margin: 2%;
+}
+
+.general center .feed{
+	width: 70%;
+	margin: 3%;
+}
+
+.general center .feed  img{
+	width: 100%;
+	height:100%;
+}
+
+.general center .illustration1,.general center .illustration2{
+	width: 80%;
+	margin: 5%;
+}
+
+.general center .illustration1 div, .general center .illustration2 div{
+	display: inline-block;
+}
+
+.general center .illustration1 .illus1_img, .general center .illustration2 .illus2_img{
+	width: 50%;
+}
+
+.general center .illustration1 .illus1_img img,.general center .illustration2 .illus2_img img{
+	width: 100%;
+	height: 100%;
+}
+
+.general center .illustration1 .illus1_slogan{
+	vertical-align: top;
+	text-align: left;
+}
+
+.general center .illustration2 .illus2_slogan{
+	vertical-align: top;
+	text-align: right;
+}
+
+.general p{
+	font-family: 'Asap Regular', arial;
+	font-size: 16px;
+	color: #999999;
+}
+
+.conclusion{
+	width: 100%;
+	background-image: url("../images/bg2.png");
+}
+
+.conclusion center .conclusion_body{
+	width: 80%;
+}
+
+.conclusion center .conclusion_body .conclusion_head h1{
+	font-family: 'Asap Bold', arial;
+	font-size: 36px;
+	color: #fff;
+}
+
+.conclusion center .conclusion_body .conclusion_slogan p{
+	font-family: 'Asap Regular', arial;
+	font-size: 24px;
+	color: #fff;
+}
+
+.conclusion center .conclusion_body  .conclusion_share div{
+	display: inline-block;
+	width: 23%;
+	margin-bottom: 40px;
+}
+
+.conclusion center .conclusion_body  .conclusion_share div img{
+	width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .home .slogans center .slogan1{
+		font-family: 'Asap Bold', arial;
+		font-size: 45px;
+		margin-top: 50px;
+	}
+	.home .slogans center .slogan2{
+		font-family: 'Asap Bold', arial;
+		font-size: 20px;
+	}
+	.general center  h1, .general center p{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.general center, .general center p{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+    .home .slogans center .slogan1{
+		font-family: 'Asap Bold', arial;
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.home .slogans center .slogan2{
+		font-family: 'Asap Bold', arial;
+		font-size: 16px;
+	}
+	.home .slogans center .slogan3{
+		font-family: 'Asap Bold', arial;
+		font-size: 14px;	
+	}
+	.header_section .external_link .link_to_be_hidden{
+		display: none;
+	}
+	.header_section .link ul li .about_link{
+		display: none;
+	}
+	#link{
+		display: inline-block;	
+		margin-top: 6px;	
+	}
+	#link ul li{
+		list-style-type: none;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.home .slogans center .subscribe .email{
+		width:200px;
+		height: 40px;
+		vertical-align: top;
+	}
+	.home .slogans center .subscribe .submit{
+		width: 40px;
+		height: 42px;
+		vertical-align: top;
+	}
+	.home .slogans .down img{
+		position: absolute;
+		bottom: 0px;
+		left: 40%;
+	}	
+}
+
+@media screen and (max-width:400px) {
+	.header_section{
+		width: 100%;
+	}
+
+	.link ul li .home_link{
+		position: relative;
+		right: 20px;
+	}
+
+	.home .slogans center .subscribe .email{
+		width:150px;
+		height: 40px;
+		vertical-align: top;
+		font-size: 14px;
+	}
+	.home .slogans center .subscribe .submit{
+		width: 30px;
+		height: 42px;
+		vertical-align: top;
+		font-size: 14px;
+	}
+
+}
