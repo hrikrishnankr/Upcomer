@@ -99,8 +99,6 @@ main{
 	font-family: 'Asap Bold', arial;
 	font-size: 52px;
 }
-.home .slogans center .slogan1 p{
-}
 
 .home .slogans center .slogan2{
 	font-family: 'Asap Bold', arial;
@@ -255,6 +253,52 @@ input::-moz-focus-inner {
 
 .conclusion center .conclusion_body  .conclusion_share div img{
 	width: 100%;
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	position: relative;
+	top:-30px;
+}
+
+footer .footer_body{
+	margin-bottom: 25px;
+	background: #333333;
+	width: 100%;
+}
+
+footer .footer_body .footer_head{
+	width: 70%;
+	margin: auto;
+}
+
+footer .footer_body .footer_head div{
+	display: inline-block;
+}
+
+footer .footer_body .footer_head .image{
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	bottom: -5px;	
+	width: 30%;
+}
+
+footer .footer_body .footer_head .slogan{
+	margin-bottom: 130px;
+}
+
+footer .footer_body .footer_head .image img{
+}
+
+footer .footer_body .footer_head .slogan span{
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Asap Bold', arial;
+	font-size: 43px;
+	color: #fff;
 }
 
 @media screen and (max-width: 780px) {
@@ -275,12 +319,42 @@ input::-moz-focus-inner {
 	.general center, .general center p{
 		font-size: 14px;
 	}
+	.conclusion center .conclusion_body .conclusion_head h1{
+		font-size: 22px;
+	}
+
+	.conclusion center .conclusion_body .conclusion_slogan p{
+		font-size: 14px;
+	}
+
+	footer .footer_body .footer_head .slogan span{
+		font-size: 23px;
+	}
+
+	footer .footer_body .footer_head{
+		width: 50%;
+	}
+
+	footer .footer_body .footer_head .slogan{
+		margin-bottom: 14%;
+		margin-left: -10%;
+	}
+
+	footer .footer_body .footer_head .image img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 680px) {
     .home .slogans center .slogan1{
 		font-family: 'Asap Bold', arial;
 		font-size: 35px;
+	}
+	.conclusion center .conclusion_body  .conclusion_share div{
+		width: 32%;
+	}
+	footer .footer_body .footer_head .slogan{
+		margin-bottom: 13%;
 	}
 }
 
@@ -305,6 +379,12 @@ input::-moz-focus-inner {
 	}
 	#link ul li{
 		list-style-type: none;
+	}
+	footer .footer_body .footer_head{
+		width: 80%;
+	}
+	footer .footer_body .footer_head .slogan span{
+		font-size: 26px;
 	}
 }
 
@@ -349,4 +429,10 @@ input::-moz-focus-inner {
 		font-size: 14px;
 	}
 
+	.conclusion center .conclusion_body  .conclusion_share div{
+		width: 60%;
+	}
+	footer .footer_body .footer_head{
+		width: 100%;
+	}
 }
