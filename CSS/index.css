@@ -269,6 +269,7 @@ footer .footer_body{
 }
 
 footer .footer_body .footer_head{
+	max-width: 610px;
 	width: 70%;
 	margin: auto;
 }
