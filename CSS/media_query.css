@@ -1,0 +1,149 @@
+@media screen and (max-width: 950px){
+	main .what_we_do .content{
+		width: 100%;
+	}
+
+	main .what_we_do .content p{
+		width: 100%;
+	}
+
+	main .what_we_do .content p, main .what_we_do .content h2{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 780px) {
+    .home .slogans  .slogan1{
+		font-family: 'Asap Bold', arial;
+		font-size: 45px;
+		margin-top: 50px;
+	}
+	.home .slogans  .slogan2{
+		font-family: 'Asap Bold', arial;
+		font-size: 20px;
+	}
+	.general   h2, .general  p{
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.general , .general  p{
+		font-size: 14px;
+	}
+	.conclusion  .conclusion_body .conclusion_head h2{
+		font-size: 22px;
+	}
+
+	.conclusion  .conclusion_body .conclusion_slogan p{
+		font-size: 14px;
+	}
+
+	footer .footer_body .footer_head .slogan span{
+		font-size: 23px;
+	}
+
+	footer .footer_body .footer_head{
+		width: 50%;
+	}
+
+	footer .footer_body .footer_head .slogan{
+		margin-bottom: 14%;
+		margin-left: -10%;
+	}
+
+	footer .footer_body .footer_head .image img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+    .home .slogans  .slogan1{
+		font-family: 'Asap Bold', arial;
+		font-size: 35px;
+	}
+	.conclusion  .conclusion_body  .conclusion_share div{
+		width: 32%;
+	}
+	footer .footer_body .footer_head .slogan{
+		margin-bottom: 13%;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.home .slogans  .slogan2{
+		font-family: 'Asap Bold', arial;
+		font-size: 16px;
+	}
+	.home .slogans  .slogan3{
+		font-family: 'Asap Bold', arial;
+		font-size: 14px;	
+	}
+	.header_section .external_link .link_to_be_hidden{
+		display: none;
+	}
+	.header_section .link ul li .about_link{
+		display: none;
+	}
+	#link{
+		display: inline-block;	
+		margin-top: 6px;	
+	}
+	#link ul li{
+		list-style-type: none;
+	}
+	footer .footer_body .footer_head{
+		width: 80%;
+	}
+	footer .footer_body .footer_head .slogan span{
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.home .slogans  .subscribe .email{
+		width:200px;
+		height: 40px;
+		vertical-align: top;
+	}
+	.home .slogans  .subscribe .submit{
+		width: 40px;
+		height: 42px;
+		vertical-align: top;
+	}
+	.home .slogans .down img{
+		position: absolute;
+		bottom: 0px;
+		left: 40%;
+	}	
+}
+
+@media screen and (max-width:400px) {
+	.header_section{
+		width: 100%;
+	}
+
+	.link ul li .home_link{
+		position: relative;
+		right: 20px;
+	}
+
+	.home .slogans  .subscribe .email{
+		width:150px;
+		height: 40px;
+		vertical-align: top;
+		font-size: 14px;
+	}
+	.home .slogans  .subscribe .submit{
+		width: 30px;
+		height: 42px;
+		vertical-align: top;
+		font-size: 14px;
+	}
+
+	.conclusion  .conclusion_body  .conclusion_share div{
+		width: 60%;
+	}
+	footer .footer_body .footer_head{
+		width: 100%;
+	}
+}

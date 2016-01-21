@@ -1,0 +1,105 @@
+.home_link{
+	color: #999999;
+}
+
+#link, .about_link{
+	color: #333333;
+}
+
+main{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	right: 0px;
+}
+
+main .what_we_do{
+	width: 95%;
+	margin:auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+main .what_we_do div{
+	display: inline-block;
+}
+
+main .what_we_do .content{
+	vertical-align: top;
+	width: 40%;
+}
+
+main .what_we_do .content h2{
+	text-align: left;
+	font-family: 'Asap Bold', arial;
+	font-size: 36px;
+	color: #333333;
+}
+
+main .what_we_do .content p{
+	text-align: left;
+	font-family: 'Asap Regular', arial;
+	font-size: 20px;
+	color: #999999;
+}
+
+main .what_we_do .image{
+	height: 0%;
+}
+
+main .what_we_do .image img{
+	height: 100%;
+	width: 100%;
+}
+
+main .chronology {
+	width: 90%;
+	height: 600px;
+	margin:auto;
+}
+
+main .chronology .year{
+	text-align: center;
+	font-family: 'Asap Bold', arial;
+	font-size: 22px;
+	color: #999999;
+}
+
+main .chronology .chro_row1,main .chronology .chro_row2{
+	width: 100%;
+}
+
+main .chronology .chro_row1 .chro1{
+	width: 52%;
+}
+
+main .chronology .chro_row1 .chro1 div,main .chronology .chro_row2 .chro2 div{
+	display: inline-block;
+}
+
+main .chronology .chro_row1 .chro1 .circle{
+	height: 40px;
+	width: 40px;
+	background-color: red;
+	border-radius: 20px;
+	float: right;
+	margin-top: 22px;
+}
+
+main .chronology .chro_row2 .chro2{
+	width: 52%;
+	float: right;
+}
+
+main .chronology .chro_row2 .chro2 .circle{
+	height: 40px;
+	width: 40px;
+	background-color: red;
+	border-radius: 20px;
+	float: left;
+	margin-top: 22px;
+}
+
+main .chronology .chro_row2 .chro2 .content{
+	float: right;
+}

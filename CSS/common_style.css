@@ -1,0 +1,120 @@
+body{
+	width: 100%;
+}
+
+a{
+	color:#333333;
+	text-decoration: none;
+}
+
+header{
+	position: fixed;
+	right: 0px;
+	left:0px;
+	top: 0px;
+	height: 70px;
+	box-shadow: 0px 2px 2px #666666;
+	z-index: 2;
+	background-color: #fff;
+}
+
+
+.header_section{
+	height: 70px;
+	width: 95%;
+	margin: auto;
+}
+
+.header_section div{
+	display: inline-block;
+}
+
+.external_link,.link{
+	float: right;
+	width: 30%;
+	font-family: 'Asap Bold', arial;
+	font-size: 18px;
+}
+
+.link,.logo{
+	float: left;
+}
+
+.link{
+	margin-top: -10px;
+}
+
+.logo{
+	width: 40%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.link ul li{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+.header_section .external_link .link_to_be_hidden{
+	width: 100%;
+}
+
+.external_link .link_to_be_hidden img{
+	float: right;
+	margin-top: 15px;
+	margin-right: 2%;
+}
+
+.about_link{
+	color: #999999;	
+}
+
+#link{
+	display: none;
+}
+footer{
+	width: 100%;
+	position: relative;
+	top:-30px;
+}
+
+footer .footer_body{
+	margin-bottom: 25px;
+	background: #333333;
+	width: 100%;
+}
+
+footer .footer_body .footer_head{
+	max-width: 610px;
+	width: 70%;
+	margin: auto;
+}
+
+footer .footer_body .footer_head div{
+	display: inline-block;
+}
+
+footer .footer_body .footer_head .image{
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	bottom: -5px;	
+	width: 30%;
+}
+
+footer .footer_body .footer_head .slogan{
+	margin-bottom: 130px;
+}
+
+footer .footer_body .footer_head .image img{
+}
+
+footer .footer_body .footer_head .slogan span{
+	text-align: center;
+	vertical-align: top;
+	position: relative;
+	font-family: 'Asap Bold', arial;
+	font-size: 43px;
+	color: #fff;
+}
