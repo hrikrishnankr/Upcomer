@@ -46,6 +46,7 @@ header{
 .logo{
 	width: 40%;
 	margin-top: 20px;
+	text-align: center;
 }
 
 .link ul li{
@@ -95,22 +96,22 @@ main{
 	color:#fff;
 }
 
-.home .slogans center .slogan1{
+.home .slogans .slogan1{
 	font-family: 'Asap Bold', arial;
 	font-size: 52px;
 }
 
-.home .slogans center .slogan2{
+.home .slogans .slogan2{
 	font-family: 'Asap Bold', arial;
 	font-size: 24px;
 }
 
-.home .slogans center .slogan3{
+.home .slogans .slogan3{
 	font-family: 'Asap Bold', arial;
 	font-size: 16px;	
 }
 
-.home .slogans center .subscribe .email{
+.home .slogans .subscribe .email{
 	font-family: 'Asap Bold', arial;
 	font-size: 16px;
 	width:269px;
@@ -136,7 +137,7 @@ main{
    font-size: 16px;
 }
 
-.home .slogans center .subscribe .submit{
+.home .slogans .subscribe .submit{
 	color: #fff;
 	font-size: 16.05px;
 	background: #2ecc71;
@@ -153,7 +154,7 @@ input::-moz-focus-inner {
   border: 0;
 }
 
-.home .slogans center .subscribe .submit:hover{
+.home .slogans .subscribe .submit:hover{
 	opacity: 0.8;
 }
 
@@ -169,51 +170,50 @@ input::-moz-focus-inner {
 	width: 100%;
 }
 
-.general center h1{
+.general h2{
 	margin: 2%;
 	font-family: 'Asap Bold', arial;
    	color: #333333;
    	font-size: 36px;
 }
 
-.general center .general_illustration{
+.general .general_illustration{
 	margin: 2%;
 }
 
-.general center .feed{
-	width: 70%;
+.general .feed{
 	margin: 3%;
+	text-align: center;
 }
 
-.general center .feed  img{
+.general .feed  img{
 	width: 100%;
 	height:100%;
 }
 
-.general center .illustration1,.general center .illustration2{
-	width: 80%;
+.general .illustration1,.general .illustration2{
 	margin: 5%;
 }
 
-.general center .illustration1 div, .general center .illustration2 div{
+.general .illustration1 div, .general  .illustration2 div{
 	display: inline-block;
 }
 
-.general center .illustration1 .illus1_img, .general center .illustration2 .illus2_img{
+.general  .illustration1 .illus1_img, .general  .illustration2 .illus2_img{
 	width: 50%;
 }
 
-.general center .illustration1 .illus1_img img,.general center .illustration2 .illus2_img img{
+.general  .illustration1 .illus1_img img,.general  .illustration2 .illus2_img img{
 	width: 100%;
 	height: 100%;
 }
 
-.general center .illustration1 .illus1_slogan{
+.general  .illustration1 .illus1_slogan{
 	vertical-align: top;
 	text-align: left;
 }
 
-.general center .illustration2 .illus2_slogan{
+.general  .illustration2 .illus2_slogan{
 	vertical-align: top;
 	text-align: right;
 }
@@ -229,29 +229,25 @@ input::-moz-focus-inner {
 	background-image: url("../images/bg2.png");
 }
 
-.conclusion center .conclusion_body{
-	width: 80%;
-}
-
-.conclusion center .conclusion_body .conclusion_head h1{
+.conclusion  .conclusion_body .conclusion_head h2{
 	font-family: 'Asap Bold', arial;
 	font-size: 36px;
 	color: #fff;
 }
 
-.conclusion center .conclusion_body .conclusion_slogan p{
+.conclusion  .conclusion_body .conclusion_slogan p{
 	font-family: 'Asap Regular', arial;
 	font-size: 24px;
 	color: #fff;
 }
 
-.conclusion center .conclusion_body  .conclusion_share div{
+.conclusion  .conclusion_body  .conclusion_share div{
 	display: inline-block;
 	width: 23%;
 	margin-bottom: 40px;
 }
 
-.conclusion center .conclusion_body  .conclusion_share div img{
+.conclusion  .conclusion_body  .conclusion_share div img{
 	width: 100%;
 	cursor: pointer;
 }
@@ -303,28 +299,28 @@ footer .footer_body .footer_head .slogan span{
 }
 
 @media screen and (max-width: 780px) {
-    .home .slogans center .slogan1{
+    .home .slogans  .slogan1{
 		font-family: 'Asap Bold', arial;
 		font-size: 45px;
 		margin-top: 50px;
 	}
-	.home .slogans center .slogan2{
+	.home .slogans  .slogan2{
 		font-family: 'Asap Bold', arial;
 		font-size: 20px;
 	}
-	.general center  h1, .general center p{
+	.general   h2, .general  p{
 		text-align: center;
 		font-size: 22px;
 	}
 
-	.general center, .general center p{
+	.general , .general  p{
 		font-size: 14px;
 	}
-	.conclusion center .conclusion_body .conclusion_head h1{
+	.conclusion  .conclusion_body .conclusion_head h2{
 		font-size: 22px;
 	}
 
-	.conclusion center .conclusion_body .conclusion_slogan p{
+	.conclusion  .conclusion_body .conclusion_slogan p{
 		font-size: 14px;
 	}
 
@@ -347,11 +343,11 @@ footer .footer_body .footer_head .slogan span{
 }
 
 @media screen and (max-width: 680px) {
-    .home .slogans center .slogan1{
+    .home .slogans  .slogan1{
 		font-family: 'Asap Bold', arial;
 		font-size: 35px;
 	}
-	.conclusion center .conclusion_body  .conclusion_share div{
+	.conclusion  .conclusion_body  .conclusion_share div{
 		width: 32%;
 	}
 	footer .footer_body .footer_head .slogan{
@@ -360,11 +356,11 @@ footer .footer_body .footer_head .slogan span{
 }
 
 @media screen and (max-width: 590px) {
-	.home .slogans center .slogan2{
+	.home .slogans  .slogan2{
 		font-family: 'Asap Bold', arial;
 		font-size: 16px;
 	}
-	.home .slogans center .slogan3{
+	.home .slogans  .slogan3{
 		font-family: 'Asap Bold', arial;
 		font-size: 14px;	
 	}
@@ -390,12 +386,12 @@ footer .footer_body .footer_head .slogan span{
 }
 
 @media screen and (max-width: 490px) {
-	.home .slogans center .subscribe .email{
+	.home .slogans  .subscribe .email{
 		width:200px;
 		height: 40px;
 		vertical-align: top;
 	}
-	.home .slogans center .subscribe .submit{
+	.home .slogans  .subscribe .submit{
 		width: 40px;
 		height: 42px;
 		vertical-align: top;
@@ -417,20 +413,20 @@ footer .footer_body .footer_head .slogan span{
 		right: 20px;
 	}
 
-	.home .slogans center .subscribe .email{
+	.home .slogans  .subscribe .email{
 		width:150px;
 		height: 40px;
 		vertical-align: top;
 		font-size: 14px;
 	}
-	.home .slogans center .subscribe .submit{
+	.home .slogans  .subscribe .submit{
 		width: 30px;
 		height: 42px;
 		vertical-align: top;
 		font-size: 14px;
 	}
 
-	.conclusion center .conclusion_body  .conclusion_share div{
+	.conclusion  .conclusion_body  .conclusion_share div{
 		width: 60%;
 	}
 	footer .footer_body .footer_head{
