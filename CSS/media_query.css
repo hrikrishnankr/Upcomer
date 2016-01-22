@@ -10,6 +10,39 @@
 	main .what_we_do .content p, main .what_we_do .content h2{
 		text-align: center;
 	}
+	.chro_row1 .chro1 .circle, .chro_row3 .chro3 .circle{
+		float: left;
+		position: relative;
+		top: 50px;
+	}
+	.chro_row1 .chro1 .content, .chro_row3 .chro3 .content{
+		position: relative;
+		left: 30%;
+		width: 80%;
+	}
+
+	.chro_row2 .chro2 .circle, .chro_row4 .chro4 .circle{
+		float:left;
+		position: relative;
+		left: 7%; 
+	}
+	.chro_row2 .chro2 .content, .chro_row4 .chro4 .content{
+		position: relative;
+		left: 16%;
+		width: 80%;
+	}
+
+	main .chronology .year{
+		text-align: left;
+		position: relative;
+		left: 7%;
+	}
+
+	.now{
+		float: left;
+		position: relative;
+		left: 17%;
+	}
 }
 
 @media screen and (max-width: 780px) {
@@ -54,6 +87,7 @@
 	footer .footer_body .footer_head .image img{
 		width: 100%;
 	}
+
 }
 
 @media screen and (max-width: 680px) {
@@ -97,6 +131,55 @@
 	footer .footer_body .footer_head .slogan span{
 		font-size: 26px;
 	}
+	
+	.chro_row1 .chro1 .content, .chro_row3 .chro3 .content{
+		position: relative;
+		left: 13%;
+	}
+
+	.chro_row2 .chro2 .content, .chro_row4 .chro4 .content{
+	 	position: relative;
+		left: 3%;
+	}
+
+	.content  h2{
+		font-family: 'Asap Bold', arial;
+		font-size: 18px;
+		color: #333333;
+	}	
+
+	.content  p{
+		font-family: 'Asap Regular', arial;
+		font-size: 14px;
+		color: #999999;
+	}	
+
+	main .we_are_looking{
+		width: 90%;
+	}
+
+	main .we_are_looking h2{
+		font-family: 'Asap Bold', arial;
+		font-size: 22px;
+		color: #333333;
+	}
+
+	main .we_are_looking p{
+		font-family: 'Asap Regular', arial;
+		font-size: 14px;
+		color: #999999;
+	}
+	main .we_are_looking .hello_upcomer{
+		height: 40px;
+		width: 210px;
+		border-radius: 20px;
+	}
+
+	main .we_are_looking .hello_upcomer a{
+		font-size: 14px;
+		position: relative;
+		top: 12px;
+	}
 }
 
 @media screen and (max-width: 490px) {
@@ -115,6 +198,24 @@
 		bottom: 0px;
 		left: 40%;
 	}	
+	main .chronology{
+		width: 95%;
+		height: 450px;
+		overflow-x:hidden; 
+	}
+
+	.now{
+		float: left;
+		position: relative;
+		left: 7%;
+		height: 60px;
+		width: 60px;
+	}
+
+	.now span{
+		position: relative;
+		top:15px;
+	}
 }
 
 @media screen and (max-width:400px) {

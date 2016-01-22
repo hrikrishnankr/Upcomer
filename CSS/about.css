@@ -53,8 +53,7 @@ main .what_we_do .image img{
 }
 
 main .chronology {
-	width: 90%;
-	height: 600px;
+	width: 70%;
 	margin:auto;
 }
 
@@ -65,41 +64,123 @@ main .chronology .year{
 	color: #999999;
 }
 
-main .chronology .chro_row1,main .chronology .chro_row2{
+.circle{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: red;
+}
+
+.chro_row1,.chro_row2,.chro_row3,.chro_row4{
 	width: 100%;
 }
 
-main .chronology .chro_row1 .chro1{
-	width: 52%;
+.chro_row1 .chro1, .chro_row2 .chro2,.chro_row3 .chro3,.chro_row4 .chro4{
+	width: 100%;
 }
 
-main .chronology .chro_row1 .chro1 div,main .chronology .chro_row2 .chro2 div{
+.chro_row1 .chro1 div, .chro_row2 .chro2 div, .chro_row3 .chro3 div, .chro_row4 .chro4 div{
 	display: inline-block;
 }
 
-main .chronology .chro_row1 .chro1 .circle{
-	height: 40px;
-	width: 40px;
-	background-color: red;
-	border-radius: 20px;
-	float: right;
-	margin-top: 22px;
+.chro_row2 .chro2, .chro_row4 .chro4{
+	text-align: right;
 }
 
-main .chronology .chro_row2 .chro2{
-	width: 52%;
-	float: right;
+.content{
+	width: 40%;
 }
 
-main .chronology .chro_row2 .chro2 .circle{
-	height: 40px;
-	width: 40px;
-	background-color: red;
-	border-radius: 20px;
+.now_parent{
+	width: 100%;
+}
+
+.now{
+	margin: 0 auto;
+	text-align: center;
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+	background: red;
+}
+
+.now span{
+	position: relative;
+	top:25px;
+	font-family: 'Asap Bold', arial;
+	font-size: 22px;
+	color: #fff;
+}
+
+.content  h2{
+	font-family: 'Asap Bold', arial;
+	font-size: 22px;
+	color: #333333;
+}
+
+.content  p{
+	font-family: 'Asap Regular', arial;
+	font-size: 20px;
+	color: #999999;
+}
+
+.chro_row2 .chro2 .content, .chro_row4 .chro4 .content{
+	text-align: left;
+}
+
+.chro_row1 .chro1 .circle, .chro_row3 .chro3 .circle{
+	position: relative;
+	left: 7.4%;
+}
+
+.chro_row2 .chro2 .circle, .chro_row4 .chro4 .circle{
 	float: left;
-	margin-top: 22px;
+	position: relative;
+	left: 48%;
+	top:50px;
 }
 
-main .chronology .chro_row2 .chro2 .content{
-	float: right;
+main .we_are_looking{
+	position: relative;
+	top:70px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+main .we_are_looking h2{
+	font-family: 'Asap Bold', arial;
+	font-size: 36px;
+	color: #333333;
+}
+
+main .we_are_looking p{
+	font-family: 'Asap Regular', arial;
+	font-size: 20px;
+	color: #999999;
+}
+
+main .we_are_looking .hello_upcomer{
+	height: 60px;
+	width: 310px;
+	border-radius: 30px;
+	background: #2ecc71;
+	margin: auto;
+}
+
+main .we_are_looking .hello_upcomer a{
+	font-family: 'Asap Regular', arial;
+	font-size: 20.3px;
+	color: #fff;
+	position: relative;
+	display: block;
+	top: 19px;
+}
+footer{
+	position: relative;
+	top:80px;
+}
+
+.link_to_be_hidden{
+	text-align: center;
 }
